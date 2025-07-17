@@ -21,7 +21,7 @@ class ReputePost(scrapy.Spider):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
         self.cookies = []
-        self.api_key = os.getenv("API_KEY")
+        self.api_key = os.getenv("TWO_CAPTCHA_API_KEY")
         self.email = os.getenv("EMAIL")
         self.password = os.getenv("PASSWORD")
         self.sitekey = os.getenv("SITE_KEY")
