@@ -51,6 +51,6 @@ pip install -r requirements.txt
 5. Outputs clean data into a CSV using Scrapy's feed exporter
 
 ## 🧪 Sample Output (CSV)
-| domain      | marketplace    | price | secondPrice | currency | country | language | category | Info                       |
-| ----------- | -------------- | ----- | ----------- | -------- | ------- | -------- | -------- | -------------------------- |
-| example.com | reputepost.com | 80    | 50          | USD      | Canada  | English  | Finance  | Type of link: DoFollow\... |
+| domain      | marketplace    | price  | currency | language | category | Info                       |
+| ----------- | -------------- | -----  | -------- | -------- | -------- |--------------------------- |
+| example.com | reputepost.com | 80     | USD      | English  | Finance  | Type of link: DoFollow\... |
