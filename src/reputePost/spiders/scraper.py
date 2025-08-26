@@ -142,9 +142,7 @@ class ReputePost(scrapy.Spider):
                 'domain': domain,
                 'marketplace': 'reputepost.com',
                 'price':price1,
-                'secondPrice': price2,
                 'currency': 'USD',
-                'country': country,
                 'language': lang,
                 'category': cate,
                 'Info': f"Type of link: {link_type} \nNumber of links: {link_no}",
@@ -277,5 +275,6 @@ class ReputePost(scrapy.Spider):
     
     def format_cookies(self, cookies):
         return '; '.join([f"{cookie['name']}={cookie['value']}" for cookie in cookies])
+
 
 
